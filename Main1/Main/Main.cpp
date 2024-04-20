@@ -8,3 +8,17 @@ void displayMainMenu()
     cout << "2. completedCourses" << endl;
     cout << "3. Grades" << endl;
 }
+void viewCourses()
+{
+
+}
+
+void completedCourses()
+{
+
+}
+
+void Grades()
+{
+
+}
