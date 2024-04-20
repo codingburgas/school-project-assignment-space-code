@@ -22,3 +22,29 @@ void Grades()
 {
 
 }
+int main()
+{
+    char choice;
+    do
+    {
+        displayMainMenu();
+        cout << "Enter your choice: ";
+        cin >> choice;
+        switch (choice)
+        {
+        case '1':
+            viewCourses();
+            break;
+        case '2':
+            completedCourses();
+            break;
+        case '3':
+            Grades();
+            break;
+        default:
+            cout << "Invalid choice. Please enter a valid option." << endl;
+        }
+    } while (choice != '3');
+
+    return 0;
+}
