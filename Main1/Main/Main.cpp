@@ -123,6 +123,130 @@ void programming(int& points, char answer[]) // Use reference for `points`
     cout << "Your current score: " << points << "/100" << endl; // Context for score
 }
 
+void biology(int& points, char answer[]) // Use reference for `points`
+{
+    cout << "What are the basic units of heredity?" << endl
+        << "a) Atoms" << endl
+        << "b) Molecules" << endl
+        << "c) Genes" << endl
+        << "d) Organisms" << endl;
+    cin >> answer[0];
+    if (answer[0] == 'd')
+    {
+        points += 10;
+    }
+
+    cout << "Where is the genetic information contained in the cell?" << endl
+        << "a) In the mitochondria" << endl
+        << "b) In the chloroplasts" << endl
+        << "c) In the cytoplasm" << endl
+        << "d) In the nucleus" << endl;
+
+    cin >> answer[1];
+    if (answer[1] == 'd')
+    {
+        points += 10;
+    }
+
+    cout << "Which of the following structures is not found in a plant cell?" << endl
+        << "a) Mitochondria" << endl
+        << "b) Chloroplasts" << endl
+        << "c) Central vacuole" << endl
+        << "d) Ribosomes" << endl;
+
+    cin >> answer[2];
+    if (answer[2] == 'a')
+    {
+        points += 10;
+    }
+
+    cout << "What do cell organelles called chloroplasts produce?" << endl
+        << "a) Water" << endl
+        << "b) Oxygen" << endl
+        << "c) Glucose" << endl
+        << "d) Amino" << endl;
+
+    cin >> answer[3];
+    if (answer[3] == 'c')
+    {
+        points += 10;
+    }
+
+    cout << "What is the main function of nucleic acids in the cell?" << endl
+        << "a) Transmission of genetic information" << endl
+        << "b) Production of energy" << endl
+        << "c) Protection of the cell" << endl
+        << "d) Construction of the cell membrane" << endl;
+
+    cin >> answer[4];
+    if (answer[4] == 'a')
+    {
+        points += 10;
+    }
+
+    cout << "Which of the following events occurs during mitosis?" << endl
+        << "a) Division of the nucleus" << endl
+        << "b) Synthesis of new proteins" << endl
+        << "c) Separation of gametes" << endl
+        << "d) Formation of gametes" << endl;
+
+    cin >> answer[5];
+    if (answer[5] == 'a')
+    {
+        points += 10;
+    }
+
+    cout << "What is the main function of cellular respiration?" << endl
+        << "a) Production of glucose" << endl
+        << "b) Production of oxygen" << endl
+        << "c) Conversion of glucose into energy" << endl
+        << "d) Synthesis of new cellular components" << endl;
+
+    cin >> answer[6];
+    if (answer[6] == 'c')
+    {
+        points += 10;
+    }
+
+    cout << "Which of the following is not true about DNA?" << endl
+        << "a) Contains genetic information" << endl
+        << "b) Located in the cytoplasm" << endl
+        << "c) Its structure is a double helix" << endl
+        << "d) It consists of nucleotides" << endl;
+
+    cin >> answer[7];
+    if (answer[7] == 'b')
+    {
+        points += 10;
+    }
+
+    cout << "What is the function of amino acids in the cell?" << endl
+        << "a) Energy storage" << endl
+        << "b) Cell membrane construction" << endl
+        << "c) Protein synthesis" << endl
+        << "d) Transfer of genetic information" << endl;
+
+    cin >> answer[8];
+    if (answer[8] == 'c')
+    {
+        points += 10;
+    }
+
+    cout << "What is an ecosystem?" << endl
+        << "a) All living organisms on Earth" << endl
+        << "b) Community of organisms and their inorganic environment" << endl
+        << "c) Planet Earth" << endl
+        << "d) Only plant organisms" << endl;
+
+    cin >> answer[9];
+    if (answer[9] == 'b')
+    {
+        points += 10;
+    }
+
+    cout << "Your current score: " << points << "/100" << endl; // Context for score
+}
+
 void displayMainMenu()
 {
     cout << endl << "------ Digital School Main Menu ------" << endl;
