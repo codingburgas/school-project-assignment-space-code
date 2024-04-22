@@ -450,7 +450,17 @@ void displayMainMenu()
 
 void viewCourses(int& points, char& option, char answer[]) // Use references
 {
-    
+    cout << "Pick Subject" << endl;
+    cout << "1. Programming" << endl;
+    cout << "2. Maths" << endl;
+    cout << "3. Biology" << endl;
+    cin >> option;
+    switch (option)
+    {
+    case '1': programming(points, answer);
+    case '2': maths(points, answer);
+    case '3': biology(points, answer);
+    }
 }
 
 void completedCourses()
