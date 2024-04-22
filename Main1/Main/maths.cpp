@@ -1,4 +1,4 @@
-#include "Maths.h"
+#include "maths.h"
 short unsigned int grademath = 0;
 void backToMainMath()
 {
