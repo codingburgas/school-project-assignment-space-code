@@ -628,7 +628,37 @@ void viewCourses(int points, char& option, char answer[]) // Use references
 
 void Grades()
 {
-    cout << "Placeholder for Grades." << endl;
+    cout << "Your Latest Grades:" << endl;
+    cout << "Programming: ";
+    if (gradeprg == 0)
+    {
+        cout << "~";
+    }
+    else
+    {
+        cout << gradeprg;
+    }
+    cout << endl;
+    cout << "Biology: ";
+    if (gradebio == 0)
+    {
+        cout << "~";
+    }
+    else
+    {
+        cout << gradebio;
+    }
+    cout << endl;
+    cout << "Maths: ";
+    if (grademath == 0)
+    {
+        cout << "~";
+    }
+    else
+    {
+        cout << grademath;
+    }
+    cout << endl;
 }
 
 
