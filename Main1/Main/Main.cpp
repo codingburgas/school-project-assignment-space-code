@@ -31,6 +31,7 @@ void programming(int points, char answer[]) // Use reference for `points`
         << "d) Java" << endl;
 
     cin >> answer[1];
+    system("cls");
     if (answer[1] == 'c')
     {
         points += 10;
@@ -39,8 +40,7 @@ void programming(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    
-    system("cls");
+ 
     cout << "What is the function of the if statement in C++ programming?" << endl
         << "a) For loop" << endl
         << "b) To create functions" << endl
@@ -48,6 +48,7 @@ void programming(int points, char answer[]) // Use reference for `points`
         << "d) To assign values to variables" << endl;
 
     cin >> answer[2];
+    system("cls");
     if (answer[2] == 'c')
     {
         points += 10;
@@ -56,7 +57,6 @@ void programming(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
     cout << "What is the purpose of the for loop in C++ programming?" << endl
         << "a) To create functions" << endl
         << "b) To repeat a block of code a certain number of times" << endl
@@ -64,6 +64,7 @@ void programming(int points, char answer[]) // Use reference for `points`
         << "d) To sort data" << endl;
 
     cin >> answer[3];
+    system("cls");
     if (answer[3] == 'b')
     {
         points += 10;
@@ -72,7 +73,6 @@ void programming(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
     cout << "Which of the following is not a data type in C++ programming?" << endl
         << "a) Numeric data type" << endl
         << "b) Text data type" << endl
@@ -80,6 +80,7 @@ void programming(int points, char answer[]) // Use reference for `points`
         << "d) Boolean data type" << endl;
 
     cin >> answer[4];
+    system("cls");
     if (answer[4] == 'c')
     {
         points += 10;
@@ -88,7 +89,6 @@ void programming(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
     cout << "What is the ==  operator in C++ programming?" << endl
         << "a) Assigning values to variables" << endl
         << "b) Checking for equality of values" << endl
@@ -96,6 +96,7 @@ void programming(int points, char answer[]) // Use reference for `points`
         << "d) Incrementing the value of a variable" << endl;
 
     cin >> answer[5];
+    system("cls");
     if (answer[5] == 'b')
     {
         points += 10;
@@ -104,7 +105,6 @@ void programming(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
     cout << "What programming language is used to create web pages?" << endl
         << "a) Java" << endl
         << "b) Python" << endl
@@ -112,6 +112,7 @@ void programming(int points, char answer[]) // Use reference for `points`
         << "d) C++" << endl;
 
     cin >> answer[6];
+    system("cls");
     if (answer[6] == 'c')
     {
         points += 10;
@@ -120,7 +121,6 @@ void programming(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
     cout << "What is the function of the cout operator in C++ programming?" << endl
         << "a) To enter data from the user" << endl
         << "b) To display text on the screen" << endl
@@ -128,6 +128,7 @@ void programming(int points, char answer[]) // Use reference for `points`
         << "d) To create loops" << endl;
 
     cin >> answer[7];
+    system("cls");
     if (answer[7] == 'b')
     {
         points += 10;
@@ -136,7 +137,6 @@ void programming(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
     cout << "What is the purpose of the return statement in C++ programming?" << endl
         << "a) To terminate the execution of the program" << endl
         << "b) To return the result of a function" << endl
@@ -144,6 +144,7 @@ void programming(int points, char answer[]) // Use reference for `points`
         << "d) To perform mathematical operations" << endl;
 
     cin >> answer[8];
+    system("cls");
     if (answer[8] == 'b')
     {
         points += 10;
@@ -152,7 +153,6 @@ void programming(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
     cout << "What is the data type of true and false in C++?" << endl
         << "a) Text data type" << endl
         << "b) Numeric data type" << endl
@@ -160,6 +160,7 @@ void programming(int points, char answer[]) // Use reference for `points`
         << "d) Graphic data type" << endl;
 
     cin >> answer[9];
+    system("cls");
     if (answer[9] == 'c')
     {
         points += 10;
@@ -168,7 +169,6 @@ void programming(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
     cout << "Your grade is ";
     int gradeprg;
     if (points <= 40)
