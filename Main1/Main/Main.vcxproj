@@ -139,11 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="biology.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="maths.cpp" />
     <ClCompile Include="programming.cpp" />
+    <ClCompile Include="viewCourses.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="subjects.h" />
+    <ClInclude Include="Biology.h" />
+    <ClInclude Include="Maths.h" />
+    <ClInclude Include="programming.h" />
+    <ClInclude Include="viewCourses.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,9 +21,27 @@
     <ClCompile Include="programming.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="biology.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="viewCourses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="subjects.h">
+    <ClInclude Include="programming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Biology.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewCourses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
