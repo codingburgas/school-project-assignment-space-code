@@ -144,15 +144,17 @@
     <ClCompile Include="displayMainMenu.cpp" />
     <ClCompile Include="mainMenu.cpp" />
     <ClCompile Include="maths.cpp" />
-    <ClCompile Include="physics.cpp" />
     <ClCompile Include="programming.cpp" />
+    <ClCompile Include="english.cpp" />
     <ClCompile Include="viewCourses.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="biology.h" />
     <ClInclude Include="displayMainMenu.h" />
+    <ClInclude Include="english.h" />
     <ClInclude Include="mainMenu.h" />
     <ClInclude Include="maths.h" />
+    <ClInclude Include="physics.h" />
     <ClInclude Include="programming.h" />
     <ClInclude Include="viewCourses.h" />
   </ItemGroup>

@@ -1,5 +1,5 @@
-﻿  main.cpp
-  mainMenu.cpp
-  maths.cpp
+﻿  programming.cpp
+  viewCourses.cpp
   Generating Code...
+  LINK : C:\Users\User\source\repos\school-project-assignment-space-code\Main1\x64\Debug\Main.exe not found or not built by the last incremental link; performing full link
   Main.vcxproj -> C:\Users\User\source\repos\school-project-assignment-space-code\Main1\x64\Debug\Main.exe

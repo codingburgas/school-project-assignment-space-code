@@ -4,6 +4,7 @@
 #include "maths.h"
 #include "viewCourses.h"
 #include "displayMainMenu.h"
+#include "english.h"
 int mainMenu()
 {
     char choice;
@@ -23,13 +24,14 @@ int mainMenu()
         case '2':
             GradesPrg();
             GradesMath();
+            GradesEng();
             GradesBio();
             break;
         default:
             cout << "Invalid choice. Please enter a valid option." << endl;
         }
 
-    } while (choice != '3'); // Modified condition to include exit
+    } while (choice != '6'); // Modified condition to include exit
 
     return 0;
 }
