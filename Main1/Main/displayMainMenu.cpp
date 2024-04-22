@@ -1,7 +1,7 @@
 #include "displayMainMenu.h"
 void displayMainMenu()
 {
-    cout << endl << "------ Digital School Main Menu ------" << endl;
+    cout << endl << "------ WELCOME TO DIGITAL SPACE ------" << endl << endl;
     cout << "1. viewCourses" << endl;
-    cout << "2. Grades" << endl;
+    cout << "2. Grades" << endl << endl;
 };
