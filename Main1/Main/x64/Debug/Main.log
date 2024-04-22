@@ -1,5 +1,10 @@
-﻿  programming.cpp
-  viewCourses.cpp
+﻿  biology.cpp
+  english.cpp
+  maths.cpp
+  physics.cpp
+C:\Users\User\source\repos\school-project-assignment-space-code\Main1\Main\physics.cpp(114,12): warning C4566: character represented by universal-character-name '\u03C1' cannot be represented in the current code page (1251)
+C:\Users\User\source\repos\school-project-assignment-space-code\Main1\Main\physics.cpp(115,12): warning C4566: character represented by universal-character-name '\u03C1' cannot be represented in the current code page (1251)
+C:\Users\User\source\repos\school-project-assignment-space-code\Main1\Main\physics.cpp(161,12): warning C4566: character represented by universal-character-name '\u03C4' cannot be represented in the current code page (1251)
+  programming.cpp
   Generating Code...
-  LINK : C:\Users\User\source\repos\school-project-assignment-space-code\Main1\x64\Debug\Main.exe not found or not built by the last incremental link; performing full link
   Main.vcxproj -> C:\Users\User\source\repos\school-project-assignment-space-code\Main1\x64\Debug\Main.exe

@@ -13,6 +13,18 @@ void backToMainPhy()
         backToMainPhy(); break;
     }
 }
+void backToMainPhyGrade()
+{
+    char backOption;
+    cin >> backOption;
+    switch (backOption)
+    {
+    case '1': system("cls"); break;
+    default:
+        cout << "Invalid input." << endl << "Type 1 to see next grade" << endl;
+        backToMainPhyGrade(); break;
+    }
+}
 void physics(int points, char answer[]) // Use reference for `points`
 {
     system("cls");
@@ -218,7 +230,7 @@ void GradesPhy()
     {
         cout << gradephy;
     }
-    cout << endl;
+    cout << endl << endl;
     cout << "Type 1 to see next grade: ";
-    backToMainPhy();
+    backToMainPhyGrade();
 }

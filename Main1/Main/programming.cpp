@@ -229,7 +229,7 @@ void GradesPrg()
     {
         cout << gradeprg;
     }
-    cout << endl;
+    cout << endl << endl;
     cout << "Type 1 to see next grade: ";
 
     backToMainPrgGrade();

@@ -5,6 +5,7 @@
 #include "viewCourses.h"
 #include "displayMainMenu.h"
 #include "english.h"
+#include "physics.h"
 int mainMenu()
 {
     char choice;
@@ -25,6 +26,7 @@ int mainMenu()
             GradesPrg();
             GradesMath();
             GradesEng();
+            GradesPhy();
             GradesBio();
             break;
         default:

@@ -230,7 +230,7 @@ void GradesEng()
     {
         cout << gradeEng;
     }
-    cout << endl;
+    cout << endl << endl;
     cout << "Type 1 to see next grade: ";
 
     backToMainEngGrade();

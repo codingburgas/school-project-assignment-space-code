@@ -5,6 +5,7 @@
 #include "displayMainMenu.h"
 #include "mainMenu.h"
 #include "english.h"
+#include "physics.h"
 int main()
 {
     mainMenu();
