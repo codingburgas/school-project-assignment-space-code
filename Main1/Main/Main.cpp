@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
-void programming(int& points, char answer[]) // Use reference for `points`
+void programming(int points, char answer[]) // Use reference for `points`
 {
     cout << "What is programming?" << endl
         << "a) The process of creating software applications" << endl
@@ -149,7 +149,7 @@ void programming(int& points, char answer[]) // Use reference for `points`
     }
 }
 
-void biology(int& points, char answer[]) // Use reference for `points`
+void biology(int points, char answer[]) // Use reference for `points`
 {
     cout << "What are the basic units of heredity?" << endl
         << "a) Atoms" << endl
@@ -298,7 +298,7 @@ void biology(int& points, char answer[]) // Use reference for `points`
         cout << gradeprg << "! Excellent! Now you can conquer a different subject!";
     }
 }
-void maths(int& points, char answer[]) // Use reference for `points`
+void maths(int points, char answer[]) // Use reference for `points`
 {
     cout << "What is the result of multiplying (2x + 3) by (4x - 5)?" << endl
     << "a) 8x^2 - 2x - 15" << endl
