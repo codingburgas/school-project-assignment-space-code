@@ -4,8 +4,7 @@ void displayMainMenu()
 {
     cout << endl << "------ Digital School Main Menu ------" << endl;
     cout << "1. viewCourses" << endl;
-    cout << "2. completedCourses" << endl;
-    cout << "3. Grades" << endl;
+    cout << "2. Grades" << endl;
 }
 void backToMain()
 {
@@ -628,11 +627,6 @@ void viewCourses(int points, char& option, char answer[]) // Use references
     }
 }
 
-void completedCourses()
-{
-    cout << "Placeholder for completed courses." << endl;
-}
-
 void Grades()
 {
     cout << "Placeholder for Grades." << endl;
@@ -656,16 +650,13 @@ int main()
             viewCourses(points,option, answer); // Pass by reference
             break;
         case '2':
-            completedCourses();
-            break;
-        case '3':
             Grades();
             break;
         default:
             cout << "Invalid choice. Please enter a valid option." << endl;
         }
 
-    } while (choice != '4'); // Modified condition to include exit
+    } while (choice != '3'); // Modified condition to include exit
 
     return 0;
 }
