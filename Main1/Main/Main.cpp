@@ -1,5 +1,7 @@
 ﻿#include <iostream>
+#include "subjects.h"
 using namespace std;
+
 void displayMainMenu()
 {
     cout << endl << "------ Digital School Main Menu ------" << endl;
@@ -182,7 +184,6 @@ void programming(int points, char answer[]) // Use reference for `points`
         cout << "You got the last question wrong!" << endl << endl;
     }
     cout << "Your grade is ";
-    int gradeprg;
     if (points <= 40)
     {
         gradeprg = 2;
@@ -385,7 +386,6 @@ void biology(int points, char answer[]) // Use reference for `points`
     }
 
     cout << "Your grade is ";
-    int gradebio;
     if (points <= 40)
     {
         gradebio = 2;
@@ -578,7 +578,6 @@ void maths(int points, char answer[]) // Use reference for `points`
     }
 
     cout << "Your grade is ";
-    int grademath;
     if (points <= 40)
     {
         grademath = 2;
