@@ -120,7 +120,33 @@ void programming(int& points, char answer[]) // Use reference for `points`
         points += 10;
     }
 
-    cout << "Your current score: " << points << "/100" << endl; // Context for score
+    cout << "Your grade is ";
+    int gradeprg;
+    if (points <= 40)
+    {
+        gradeprg = 2;
+        cout << gradeprg << "! You need to work on your knowledge!";
+    }
+    else if (points > 40 && points < 60)
+    {
+        gradeprg = 3;
+        cout << gradeprg << "! You can do a lot better than that!";
+    }
+    else if (points >= 60 && points <= 70)
+    {
+        gradeprg = 4;
+        cout << gradeprg << "! You can still do better!";
+    }
+    else if (points >= 80 && points < 90)
+    {
+        gradeprg = 5;
+        cout << gradeprg << "! Very Good, but there is still room for improvement!";
+    }
+    else
+    {
+        gradeprg = 6;
+        cout << gradeprg << "! Excellent! Now you can conquer a different subject!";
+    }
 }
 
 void biology(int& points, char answer[]) // Use reference for `points`
@@ -244,15 +270,40 @@ void biology(int& points, char answer[]) // Use reference for `points`
         points += 10;
     }
 
-    cout << "Your current score: " << points << "/100" << endl; // Context for score
+    cout << "Your grade is ";
+    int gradeprg;
+    if (points <= 40)
+    {
+        gradeprg = 2;
+        cout << gradeprg << "! You need to work on your knowledge!";
+    }
+    else if (points > 40 && points < 60)
+    {
+        gradeprg = 3;
+        cout << gradeprg << "! You can do a lot better than that!";
+    }
+    else if (points >= 60 && points <= 70)
+    {
+        gradeprg = 4;
+        cout << gradeprg << "! You can still do better!";
+    }
+    else if (points >= 80 && points < 90)
+    {
+        gradeprg = 5;
+        cout << gradeprg << "! Very Good, but there is still room for improvement!";
+    }
+    else
+    {
+        gradeprg = 6;
+        cout << gradeprg << "! Excellent! Now you can conquer a different subject!";
+    }
 }
-
 void maths(int& points, char answer[]) // Use reference for `points`
 {
     cout << "What is the result of multiplying (2x + 3) by (4x - 5)?" << endl
-        << "a) 8x^2 - 2x - 15" << endl
-        << "b) 8x^2 - 7x - 15" << endl
-        << "c) 8x^2 + x - 15" << endl
+    << "a) 8x^2 - 2x - 15" << endl
+    << "b) 8x^2 - 7x - 15" << endl
+    << "c) 8x^2 + x - 15" << endl
         << "d) 8x^2 - 2x + 15" << endl;
     cin >> answer[0];
     if (answer[0] == 'b')
@@ -261,9 +312,9 @@ void maths(int& points, char answer[]) // Use reference for `points`
     }
 
     cout << "Solve the equation: 3x - 7 = 2x + 8" << endl
-        << "a) x = -15" << endl
-        << "b) x = 15" << endl
-        << "c) x = -1" << endl
+    << "a) x = -15" << endl
+    << "b) x = 15" << endl
+    << "c) x = -1" << endl
         << "d) x = 1" << endl;
     cin >> answer[1];
     if (answer[1] == 'c')
@@ -359,7 +410,33 @@ void maths(int& points, char answer[]) // Use reference for `points`
         points += 10;
     }
 
-    cout << "Your current score: " << points << "/100" << endl; // Context for score
+    cout << "Your grade is ";
+    int gradeprg;
+    if (points <= 40)
+    {
+        gradeprg = 2;
+        cout << gradeprg << "! You need to work on your knowledge!";
+    }
+    else if (points > 40 && points < 60)
+    {
+        gradeprg = 3;
+        cout << gradeprg << "! You can do a lot better than that!";
+    }
+    else if (points >= 60 && points <= 70)
+    {
+        gradeprg = 4;
+        cout << gradeprg << "! You can still do better!";
+    }
+    else if (points >= 80 && points < 90)
+    {
+        gradeprg = 5;
+        cout << gradeprg << "! Very Good, but there is still room for improvement!";
+    }
+    else
+    {
+        gradeprg = 6;
+        cout << gradeprg << "! Excellent! Now you can conquer a different subject!";
+    }
 }
 
 void displayMainMenu()
@@ -373,16 +450,7 @@ void displayMainMenu()
 
 void viewCourses(int& points, char& option, char answer[]) // Use references
 {
-    cout << "Pick Subject (1 for Programming)" << endl;
-    cin >> option;
-    if (option == '1') // Removed switch case with single case
-    {
-        programming(points, answer);
-    }
-    else
-    {
-        cout << "Invalid subject choice." << endl;
-    }
+    
 }
 
 void completedCourses()
