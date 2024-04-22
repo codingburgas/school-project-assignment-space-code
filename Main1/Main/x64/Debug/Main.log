@@ -1,4 +1,4 @@
 ﻿  Main.cpp
-C:\Users\User\source\repos\school-project-assignment-space-code\Main1\Main\Main.cpp(535,12): warning C4566: character represented by universal-character-name '\u221A' cannot be represented in the current code page (1251)
-C:\Users\User\source\repos\school-project-assignment-space-code\Main1\Main\Main.cpp(537,12): warning C4566: character represented by universal-character-name '\u221A' cannot be represented in the current code page (1251)
+C:\Users\User\source\repos\school-project-assignment-space-code\Main1\Main\Main.cpp(534,12): warning C4566: character represented by universal-character-name '\u221A' cannot be represented in the current code page (1251)
+C:\Users\User\source\repos\school-project-assignment-space-code\Main1\Main\Main.cpp(536,12): warning C4566: character represented by universal-character-name '\u221A' cannot be represented in the current code page (1251)
   Main.vcxproj -> C:\Users\User\source\repos\school-project-assignment-space-code\Main1\x64\Debug\Main.exe
