@@ -144,6 +144,7 @@
     <ClCompile Include="displayMainMenu.cpp" />
     <ClCompile Include="mainMenu.cpp" />
     <ClCompile Include="maths.cpp" />
+    <ClCompile Include="physics.cpp" />
     <ClCompile Include="programming.cpp" />
     <ClCompile Include="english.cpp" />
     <ClCompile Include="viewCourses.cpp" />
