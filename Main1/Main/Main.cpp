@@ -2,7 +2,7 @@
 #include "biology.h"
 #include "maths.h"
 #include "viewCourses.h"
-#include "mainMenu.h"
+#include "displayMainMenu.h"
 
 int main()
 {

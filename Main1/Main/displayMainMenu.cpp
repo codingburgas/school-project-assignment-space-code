@@ -1,4 +1,4 @@
-#include "mainMenu.h"
+#include "displayMainMenu.h"
 void displayMainMenu()
 {
     cout << endl << "------ Digital School Main Menu ------" << endl;

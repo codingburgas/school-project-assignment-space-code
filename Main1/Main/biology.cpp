@@ -1,4 +1,4 @@
-#include "Biology.h"
+#include "biology.h"
 short unsigned int gradebio = 0;
 void backToMainBio()
 {

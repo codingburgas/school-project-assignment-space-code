@@ -30,7 +30,7 @@
     <ClCompile Include="viewCourses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mainMenu.cpp">
+    <ClCompile Include="displayMainMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,7 +38,7 @@
     <ClInclude Include="programming.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Biology.h">
+    <ClInclude Include="biology.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Maths.h">
@@ -47,7 +47,7 @@
     <ClInclude Include="viewCourses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mainMenu.h">
+    <ClInclude Include="displayMainMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
