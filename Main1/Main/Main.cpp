@@ -2,14 +2,7 @@
 #include "biology.h"
 #include "maths.h"
 #include "viewCourses.h"
-
-void displayMainMenu()
-{
-    cout << endl << "------ Digital School Main Menu ------" << endl;
-    cout << "1. viewCourses" << endl;
-    cout << "2. Grades" << endl;
-}
-
+#include "mainMenu.h"
 
 int main()
 {
