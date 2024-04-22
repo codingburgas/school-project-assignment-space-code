@@ -7,6 +7,19 @@ void displayMainMenu()
     cout << "2. completedCourses" << endl;
     cout << "3. Grades" << endl;
 }
+void backToMain()
+{
+    cout << endl << "Press 1 to go back to main menu" << endl;
+    char backOption;
+    cin >> backOption;
+    switch (backOption)
+    {
+    case '1': system("cls"); break;
+    default:
+        cout << "Invalid input." << endl;
+        backToMain(); break;
+    }
+}
 void programming(int points, char answer[]) // Use reference for `points`
 {
     cout << "What is programming?" << endl
@@ -196,14 +209,8 @@ void programming(int points, char answer[]) // Use reference for `points`
         gradeprg = 6;
         cout << gradeprg << "! Excellent! Now you can conquer a different subject!";
     }
-    cout << endl << "Press 1 to go back to main menu" << endl;
-    int backOption;
-    cin >> backOption;
-    if (backOption == 1)
-    {
-        system("cls");
-    }
     points = 0;
+    backToMain();
 }
 
 void biology(int points, char answer[]) // Use reference for `points`
@@ -215,6 +222,7 @@ void biology(int points, char answer[]) // Use reference for `points`
         << "c) Genes" << endl
         << "d) Organisms" << endl;
     cin >> answer[0];
+    system("cls");
     if (answer[0] == 'd')
     {
         points += 10;
@@ -223,7 +231,7 @@ void biology(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+    
     cout << "Where is the genetic information contained in the cell?" << endl
         << "a) In the mitochondria" << endl
         << "b) In the chloroplasts" << endl
@@ -231,6 +239,7 @@ void biology(int points, char answer[]) // Use reference for `points`
         << "d) In the nucleus" << endl;
 
     cin >> answer[1];
+    system("cls");
     if (answer[1] == 'd')
     {
         points += 10;
@@ -239,7 +248,7 @@ void biology(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "Which of the following structures is not found in a plant cell?" << endl
         << "a) Mitochondria" << endl
         << "b) Chloroplasts" << endl
@@ -247,6 +256,7 @@ void biology(int points, char answer[]) // Use reference for `points`
         << "d) Ribosomes" << endl;
 
     cin >> answer[2];
+    system("cls");
     if (answer[2] == 'a')
     {
         points += 10;
@@ -255,7 +265,7 @@ void biology(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "What do cell organelles called chloroplasts produce?" << endl
         << "a) Water" << endl
         << "b) Oxygen" << endl
@@ -263,6 +273,7 @@ void biology(int points, char answer[]) // Use reference for `points`
         << "d) Amino" << endl;
 
     cin >> answer[3];
+    system("cls");
     if (answer[3] == 'c')
     {
         points += 10;
@@ -271,7 +282,7 @@ void biology(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "What is the main function of nucleic acids in the cell?" << endl
         << "a) Transmission of genetic information" << endl
         << "b) Production of energy" << endl
@@ -279,6 +290,7 @@ void biology(int points, char answer[]) // Use reference for `points`
         << "d) Construction of the cell membrane" << endl;
 
     cin >> answer[4];
+    system("cls");
     if (answer[4] == 'a')
     {
         points += 10;
@@ -287,7 +299,7 @@ void biology(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "Which of the following events occurs during mitosis?" << endl
         << "a) Division of the nucleus" << endl
         << "b) Synthesis of new proteins" << endl
@@ -295,6 +307,7 @@ void biology(int points, char answer[]) // Use reference for `points`
         << "d) Formation of gametes" << endl;
 
     cin >> answer[5];
+    system("cls");
     if (answer[5] == 'a')
     {
         points += 10;
@@ -303,7 +316,7 @@ void biology(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "What is the main function of cellular respiration?" << endl
         << "a) Production of glucose" << endl
         << "b) Production of oxygen" << endl
@@ -311,6 +324,7 @@ void biology(int points, char answer[]) // Use reference for `points`
         << "d) Synthesis of new cellular components" << endl;
 
     cin >> answer[6];
+    system("cls");
     if (answer[6] == 'c')
     {
         points += 10;
@@ -319,7 +333,7 @@ void biology(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "Which of the following is not true about DNA?" << endl
         << "a) Contains genetic information" << endl
         << "b) Located in the cytoplasm" << endl
@@ -327,6 +341,7 @@ void biology(int points, char answer[]) // Use reference for `points`
         << "d) It consists of nucleotides" << endl;
 
     cin >> answer[7];
+    system("cls");
     if (answer[7] == 'b')
     {
         points += 10;
@@ -335,7 +350,7 @@ void biology(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "What is the function of amino acids in the cell?" << endl
         << "a) Energy storage" << endl
         << "b) Cell membrane construction" << endl
@@ -343,6 +358,7 @@ void biology(int points, char answer[]) // Use reference for `points`
         << "d) Transfer of genetic information" << endl;
 
     cin >> answer[8];
+    system("cls");
     if (answer[8] == 'c')
     {
         points += 10;
@@ -351,7 +367,7 @@ void biology(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "What is an ecosystem?" << endl
         << "a) All living organisms on Earth" << endl
         << "b) Community of organisms and their inorganic environment" << endl
@@ -359,6 +375,7 @@ void biology(int points, char answer[]) // Use reference for `points`
         << "d) Only plant organisms" << endl;
 
     cin >> answer[9];
+    system("cls");
     if (answer[9] == 'b')
     {
         points += 10;
@@ -367,7 +384,7 @@ void biology(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "Your grade is ";
     int gradebio;
     if (points <= 40)
@@ -395,14 +412,8 @@ void biology(int points, char answer[]) // Use reference for `points`
         gradebio = 6;
         cout << gradebio << "! Excellent! Now you can conquer a different subject!";
     }
-    cout << endl << "Press 1 to go back to main menu" << endl;
-    int backOption;
-    cin >> backOption;
-    if (backOption == 1)
-    {
-        system("cls");
-    }
     points = 0;
+    backToMain();
 }
 void maths(int points, char answer[]) // Use reference for `points`
 {
@@ -413,6 +424,7 @@ void maths(int points, char answer[]) // Use reference for `points`
     << "c) 8x^2 + x - 15" << endl
         << "d) 8x^2 - 2x + 15" << endl;
     cin >> answer[0];
+    system("cls");
     if (answer[0] == 'b')
     {
         points += 10;
@@ -421,13 +433,14 @@ void maths(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "Solve the equation: 3x - 7 = 2x + 8" << endl
     << "a) x = -15" << endl
     << "b) x = 15" << endl
     << "c) x = -1" << endl
         << "d) x = 1" << endl;
     cin >> answer[1];
+    system("cls");
     if (answer[1] == 'c')
     {
         points += 10;
@@ -436,13 +449,14 @@ void maths(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "What is the product of the roots of the equation x^2 - 5x + 6 = 0?" << endl
         << "a) 6" << endl
         << "b) 5" << endl
         << "c) 1" << endl
         << "d) 0" << endl;
     cin >> answer[2];
+    system("cls");
     if (answer[2] == 'a')
     {
         points += 10;
@@ -451,13 +465,14 @@ void maths(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "Which of the following numbers are divisors of 24?" << endl
         << "a) 3 and 8" << endl
         << "b) 2, 5 and 6" << endl
         << "c) 4, 7 and 9" << endl
         << "d) 1, 2, 3, 4, 6, 8, 12 and 24" << endl;
     cin >> answer[3];
+    system("cls");
     if (answer[3] == 'd')
     {
         points += 10;
@@ -466,13 +481,14 @@ void maths(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "Which of the following numbers are prime?" << endl
         << "a) 21 and 27" << endl
         << "b) 17 and 25" << endl
         << "c) 20 and 22" << endl
         << "d) 13 and 29" << endl;
     cin >> answer[4];
+    system("cls");
     if (answer[4] == 'd')
     {
         points += 10;
@@ -481,13 +497,14 @@ void maths(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "What is the sum of the first 10 members of the sequence 2, 5, 8, 11, ... ?" << endl
         << "a) 150" << endl
         << "b) 175" << endl
         << "c) 180" << endl
         << "d) 185" << endl;
     cin >> answer[5];
+    system("cls");
     if (answer[5] == 'c')
     {
         points += 10;
@@ -496,13 +513,14 @@ void maths(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "If the sum of the angles of a triangle is 180 degrees, what is the angle of elevation of a side?" << endl
         << "a) 90 degrees" << endl
         << "b) 60 degrees" << endl
         << "c) 45 degrees" << endl
         << "d) 30 degrees" << endl;
     cin >> answer[6];
+    system("cls");
     if (answer[6] == 'd')
     {
         points += 10;
@@ -511,13 +529,14 @@ void maths(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "What is the meaning of the sine of an angle of 60 degrees?" << endl
         << "a) 1/2" << endl
         << "b) √2/2" << endl
         << "c) 1" << endl
         << "d) √3/2" << endl;
     cin >> answer[7];
+    system("cls");
     if (answer[7] == 'd')
     {
         points += 10;
@@ -526,13 +545,14 @@ void maths(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "What is the face of a rectangle 6 cm long and 8 cm wide?" << endl
         << "a) 14 cm^2" << endl
         << "b) 24 cm^2" << endl
         << "c) 40 cm^2" << endl
         << "d) 48 cm^2" << endl;
     cin >> answer[8];
+    system("cls");
     if (answer[8] == 'b')
     {
         points += 10;
@@ -541,13 +561,14 @@ void maths(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "What is the solution of the equation |3x - 4| = 7?" << endl
         << "a) x = -1 and x = 11/3" << endl
         << "b) x = -3 and x = 11/3" << endl
         << "c) x = 1 and x = 11/3" << endl
         << "d) x = 3 and x = 11/3" << endl;
     cin >> answer[9];
+    system("cls");
     if (answer[9] == 'a')
     {
         points += 10;
@@ -556,7 +577,7 @@ void maths(int points, char answer[]) // Use reference for `points`
     {
         cout << "You got the last question wrong!" << endl << endl;
     }
-    system("cls");
+
     cout << "Your grade is ";
     int grademath;
     if (points <= 40)
@@ -584,14 +605,8 @@ void maths(int points, char answer[]) // Use reference for `points`
         grademath = 6;
         cout << grademath << "! Excellent! Now you can conquer a different subject!";
     }
-    cout << endl << "Press 1 to go back to main menu" << endl;
-    int backOption;
-    cin >> backOption;
-    if (backOption == 1)
-    {
-        system("cls");
-    }
     points = 0;
+    backToMain();
 }
 
 
