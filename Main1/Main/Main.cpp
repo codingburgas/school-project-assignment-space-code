@@ -445,16 +445,17 @@ void displayMainMenu()
     cout << "1. viewCourses" << endl;
     cout << "2. completedCourses" << endl;
     cout << "3. Grades" << endl;
-    cout << "4. Exit" << endl; // Added exit option
 }
 
 void viewCourses(int& points, char& option, char answer[]) // Use references
 {
+    system("cls");
     cout << "Pick Subject" << endl;
     cout << "1. Programming" << endl;
     cout << "2. Maths" << endl;
     cout << "3. Biology" << endl;
     cin >> option;
+    system("cls");
     switch (option)
     {
     case '1': programming(points, answer);
@@ -496,9 +497,6 @@ int main()
             break;
         case '3':
             Grades();
-            break;
-        case '4': // New exit condition
-            cout << "Exiting..." << endl;
             break;
         default:
             cout << "Invalid choice. Please enter a valid option." << endl;
